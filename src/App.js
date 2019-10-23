@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Claptrap from './components/Claptrap';
 import Keanu from './components/Keanu';
 import Dio from './components/Dio';
+import ContactList from './components/ContactList'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Contact {...Claptrap}/>
       <Contact {...Keanu}/>
       <Contact {...Dio}/>
+      <ContactList />
+)
     </div>
   );
 }
